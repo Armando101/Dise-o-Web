@@ -1,0 +1,21 @@
+div {	/*tambien es correcto usar .class*/
+	color: white;
+	width: 100px
+	height: 100px;
+	background-color: purple;
+	font-size: 30px;
+	margin: 5px;
+}
+
+.cajaPadre {
+	width: 500px;
+	height: 500px;
+	background: black;
+	position: relative;		/* tiene un lugar apartado, no se encima, por default es relative*/
+	/*position: absolute;*/
+}
+
+.caja {
+	/*position: static;*/
+	position: fixed;	/* la figura no se mueve aunque mueva el scroll*/
+}

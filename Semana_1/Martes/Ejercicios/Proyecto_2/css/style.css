@@ -1,0 +1,8 @@
+.clase {	/* Las clases se llaman con .   class*/
+	color: red;
+	background-color: #B5CED9; 
+}
+#identificador {	/*Los identificadores se manejan con #  id*/
+	color: #B5CED9;
+	background-color: red; 
+}
