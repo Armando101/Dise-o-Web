@@ -2,9 +2,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
-	background-color: #f1f1f1;
+	background-color: cyan;
 }
 h1 {
+	background: blue;
 	font-family: 'Black Han Sans', sans-serif;
 	color: black;
 }
@@ -13,3 +14,31 @@ img {
 	width: 30%;
 }
 
+li {
+	display: inline; 
+
+}
+ul {
+	background: black;
+	color: white;
+}
+
+nav a, p {
+	background: black;
+	color: white;
+}
+
+section.Biografia {
+	background-color: gray;
+	text-align: center;
+	width: 45%;
+	text-align: justify;
+	color: green;
+}
+
+section.Exp {
+	width: 500px;
+	height: 500px;
+	background: gray;
+	position: relative;
+}

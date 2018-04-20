@@ -3,7 +3,7 @@ body {
 }
 .pacman {
 	margin: 50px 10px;
-	-webkit-transition: width 1s;
+	position: relative;
 }
 
 .pacman1 {
@@ -18,16 +18,7 @@ body {
 	
 }
 
-.pacman1:hover {
-	width: 300px;
-}
-.pacman2:hover {
-	width: 300px;
-}
-
-
 .pacman2 {
-	-webkit-transition: width 1s;
 	background: #A7E22E;
 	height: 100px;
 	width: 200px;
@@ -42,11 +33,16 @@ body {
 @keyframes pacman1 {
 	from {
 		transform: rotate(0deg);
+		position: relative;
 		left: 0px;	
 	}
 	to {	
 		transform: rotate(-45deg);
-		left: 0px;
+		position: relative;
+		left: 300px;
+		height: 100px;
+		width: 300px;
+		border-radius: 100px 100px 0 0;	
 	}
 }
 
@@ -57,17 +53,11 @@ body {
 	}
 	to {
 		transform: rotate(45deg);
-		left: 0px;
+		position: relative;
+		left: 300px;
+		height: 100px;
+		width: 300px;
+		border-radius: 0px 0px 100px 100px;	
 	}
 }
 
-/*@keyframes slidein {
-	from{
-		margin-left: 100%;
-		width: 300%;
-	}
-	to{
-		margin-left: 0%;
-		width: 50%;
-	}
-}*/
