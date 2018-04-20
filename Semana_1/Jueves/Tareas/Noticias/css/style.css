@@ -1,0 +1,19 @@
+body {
+	background: #EF6C10
+}
+
+header {
+	background: #45C8D7
+}
+
+h1 {
+
+	font-family: 'Black Han Sans', sans-serif;
+	padding-top: 20px;
+	border: 15px solid black;
+}
+img {
+	width: 45%;
+	
+	border: 2px solid black;
+}
