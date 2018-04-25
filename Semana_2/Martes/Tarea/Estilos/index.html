@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Estilos</title>
+  </head>
+<body>
+    <script type="text/javascript">
+    function vaciar(){
+    document.getElementById("co").value="";
+}
+
+function AplicarCol(){
+        var Color = document.getElementById("co").value;
+        document.getElementById("Estilos");
+        Estilos.style.color = Color;
+}
+</script>
+    <center>
+    <label>Color </label>
+    <input type="text" id="co">
+    <button type="button" name="button" onclick="vaciar()">vaciar</button>
+    <button type="button" name="button2" onclick="AplicarCol()">Aplicar</button>
+    <h1 id="Estilos">Puedes modificar este texto</h1>
+</body>
+</html>

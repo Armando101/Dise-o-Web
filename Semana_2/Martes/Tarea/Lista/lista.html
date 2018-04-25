@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Lista de animales</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">
+		var list = [];
+		function Agregar() {
+			
+			var an = document.getElementById("ag").value;
+			list.push(an);
+			document.getElementById("txt").value="";
+			
+			for (var i =0; i<list.length; i++) {
+				document.getElementById("txt").value += list[i] + ""
+			}
+
+			document.getElementById("ag").value=" ";
+		}
+	</script>
+</head>
+<body>
+<center>
+
+	<input type="text" id="ag"> 
+	<button onclick="Agregar()">Agregar</button>
+	<br>
+	<textarea id="txt" type= "text" name="area" cols="30" rows="10"></textarea>
+
+</center>
+</body>
+</html>

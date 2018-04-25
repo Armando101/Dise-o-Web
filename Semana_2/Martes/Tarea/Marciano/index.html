@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Marciano</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/marciano.png">
+</head>
+
+<body>
+	<h1>Marciano</h1>
+	<div class="marciano" style="float:left;">
+		<a href="img"><img src="img/marciano.png"></a>
+	</div>
+	<script type="text/javascript">
+		prompt("Haz una pregunta para el marciano adivino \n\nSi te sale Hola Mundo Tendras Suerte por el resto de tu vida\n\n");
+		var list = ["No cuentes con ello", "Probablemente", "Claro que si", "Eso nunca sucedera", "Es imposible pero mucha Suerte", "Hola Mundo"];
+		function Prueba() {
+			var a = Math.round(Math.random()*6);
+			alert(list[a]);
+		}
+	</script>
+	
+
+	<center>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+		<button onclick="Prueba()">Prueba tu Suerte</button>
+	</center>
+</body>
+</html>
